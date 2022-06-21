@@ -1,9 +1,11 @@
+/* eslint-disable no-unused-vars */
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="bg-blue-700 mx">Teguh dana prayuda</h1>
+    <div>
+      <Header />
     </div>
   );
 }
